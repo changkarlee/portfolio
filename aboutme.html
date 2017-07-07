@@ -4,6 +4,10 @@
 <body style= "background-color:black;">   
     
     <h1 style= color:white;font-size:36px;><center>Hi my name is Karlee!</h1>
+	    <p></p>
+	    <p></p>
+	    
+	    <a href="https://changkarlee.github.io/portfolio/projects.html">Projects</a>
     </br>
 <h2 style= color:white;font-size:24px;><center><a ref:______Click here to find out more about me!</h2>
    
@@ -26,29 +30,50 @@
 <hr> 
 	
 <h4 style= color:white;font-size:24px;> FUN FACTS: 
-	<p1> Hobbies: 
-		I've played volleyball for 7 years, and have been swimming since I was 4. 
-		I like to volunteer at hospitals in my free time on the weekends, and currently volunteer at the California Campus of CPMC. </p1>
-	<p2> Likes: 
-		I like traveling and experiencing new things when I go on trips, including the different foods and local atttractions. I also enjoy learning new languages, and am currently in the process of polishing up on my German and Korean. 
+	<p>Hobbies, Likes, and Dislikes</p>
 
-      
- 
+<p id="demo">   			</p>
 
+<button type="button" onclick="hobbies()">Click here to read more about my hobbies
+<script>
 
+function hobbies() {
+    document.getElementById("demo").innerHTML = "I've played volleyball for 7 years, and have been swimming since I was 4. I like to volunteer at hospitals in my free time on the weekends, and currently volunteer at the California Campus of CPMC.";
+}
+</script>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<p></p>
 
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<p id="demo">   			</p>
 
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<button type="button" onclick="dislikes()">Click here to read about my dislikes
+<script>
+function dislikes() {
+    document.getElementById("demo").innerHTML = "One of the things that I hate the most is when people are flaky - especially when they cancel last minute after making me wait past our arranged time.";
+}
+</script>
 
+<p></p>
+<p></p>
 
+<p></p>
+
+<p id="demo">   			</p>
+
+<button type="button" onclick="myFunction()">Click here to read more about what I like.</button>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "I like traveling and experiencing new things when I go on trips, including the different foods and local atttractions. I also enjoy learning new languages, and am currently in the process of polishing up on my German and Korean.";
+}
+</script>
  
     
 </body>
 </head>
 </html>
+
+  
     --------
     
     <!DOCTYPE html>
@@ -75,7 +100,11 @@
          alt="Click on this for my Twitter" width="60"; height="50"; border:0;"> </a> 
 </br>
       
- 
+ <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
     
 </body>
 </head>
