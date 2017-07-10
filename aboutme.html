@@ -1,7 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<body style= "background-color:black;">   
+<style>
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 25 px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+</style>
+</head>
+<body style= "background-color:black;"> 
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Projects</a>
+  <a href="https://www.youtube.com/" id="contact">Contact</a>
+</div>
+  
     
     <h1 style= color:white;font-size:36px;><center>Hi my name is Karlee!</h1>
     </br>
@@ -90,11 +136,7 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "I like traveling and experiencing new things when I go on trips, including the different foods and local atttractions. I also enjoy learning new languages, and am currently in the process of polishing up on my German and Korean.";
 }
 </script>
- 
-
-
- 
-    
-</body>
-</head>
+</body> 
 </html>
+
+  
