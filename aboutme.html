@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-
 <style>
+
 body {
-    font-family: Pacifico;
+	font-family:Pacifico;
+    color: #ccccff
 }
 
+h2 {
+	color: #ccccff;
+    font-size:24px;
+}
+
+p {
+	color: white;
+    font-size: 18px;
+}
 
 #mySidenav a {
     position: absolute;
     left: -80px;
     transition: 0.3s;
     padding: 15px;
-    width: 100px;
+    width: 75px;
     text-decoration: none;
     font-size: 25 px;
-    color: white;
+    color: #ccccff;
     border-radius: 0 5px 5px 0;
+    font-family:Courier New;
 }
 
 #mySidenav a:hover {
@@ -26,17 +37,17 @@ body {
 
 #about {
     top: 20px;
-    background-color: #4CAF50;
+    background-color: #555;
 }
 
 #blog {
     top: 80px;
-    background-color: #2196F3;
+    background-color: #555;
 }
 
 #projects {
     top: 140px;
-    background-color: #f44336;
+    background-color: #555;
 }
 
 #contact {
@@ -45,19 +56,19 @@ body {
 }
 </style>
 </head>
-<body style= "background-color:black;"> 
+<body style= "background-color:black""font-family:Courier Sans"> 
 
 <div id="mySidenav" class="sidenav">
   <a href="#" id="about">About</a>
   <a href="#" id="blog">Blog</a>
-  <a href="#" id="projects">Projects</a>
-  <a href="contacts.html" id="contact">Contact</a>
+  <a href="#" id="projects">Works</a>
+  <a href="https://www.youtube.com/" id="contact">Contact</a>
 </div>
   
     
-    <h1 style= color:white;font-size:36px;><center>Hi my name is Karlee!</h1>
+    <h1 style= font-size:36px;><center>Hi my name is Karlee!</h1>
     </br>
-<h2 style= color:white;font-size:24px;><center><a ref:______Click here to find out more about me!</h2>
+<h2><center><a ref:______Click here to find out more about me!</h2>
    
 
      
@@ -67,6 +78,7 @@ body {
 <a href="https://twitter.com/karlee_chang">
      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" alt="Smiley" width="32" height="32"> </a>
 
+</body> 
 
 <script>
 function bigImg(x) {
@@ -81,7 +93,7 @@ function normalImg(x) {
 </script>
  
 
-<a href="https://www.instagram.com/karlee_chang/"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="http://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="Smiley" width="32" height="50"> </a>
+<a href="https://www.instagram.com/karlee_chang/"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="http://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="Smiley" width="50" height="50"> </a>
 
 
 <script>
@@ -100,11 +112,11 @@ function normalImg(x) {
 
 </br>
 
-<h3 style= color:white;font-size:24px;> BIO: </h3>
+<h2 > BIO: </h2>
 	<p> I was born and raised in San Francisco, and currently live with my parents and two younger brothers. I am an ambitious, curious, and adventurous individual that isn't afraid to try new things. </p>
 <hr> 
 	
-<h4 style= color:white;font-size:24px;> FUN FACTS: 
+<h4 style= font-size:24px;> FUN FACTS: </h4>
 	<p>Hobbies, Likes, and Dislikes</p>
 
 <p id="demo">   </p>
@@ -142,7 +154,5 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "I like traveling and experiencing new things when I go on trips, including the different foods and local atttractions. I also enjoy learning new languages, and am currently in the process of polishing up on my German and Korean.";
 }
 </script>
-</body> 
-</html>
 
-  
+</html>
