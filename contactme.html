@@ -1,5 +1,87 @@
 <html>
+  <head>
+    #mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 75px;
+    text-decoration: none;
+    font-size: 25 px;
+    color: #ccccff;
+    border-radius: 0 5px 5px 0;
+    font-family:Courier New;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #555;
+}
+
+#blog {
+    top: 80px;
+    background-color: #555;
+}
+
+#projects {
+    top: 140px;
+    background-color: #555;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+</style>
+</head>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <a href="#" id="blog">Blog</a>
+  <a href="#" id="projects">Works</a>
+  <a href="https://changkarlee.github.io/portfolio/contactme.html" id="contact">Contact</a>
+</div>
 <body>
-<h>hello</h>
+
+ <body style= "background-color:black""font-family:Courier Sans"> 
+     
+<a href="https://twitter.com/karlee_chang">
+     <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" alt="Smiley" width="32" height="32"> </a>
+
+</body> 
+
+<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+ 
+
+<a href="https://www.instagram.com/karlee_chang/"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="http://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="Smiley" width="50" height="50"> </a>
+
+
+<script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
+         
+  
 </body>
 </html>
